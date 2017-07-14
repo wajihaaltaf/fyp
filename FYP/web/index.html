@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        
+<div class="container">
+  <div class="row header">
+    <h1>CONTACT US &nbsp;</h1>
+    <h3>Fill out the form below to learn more!</h3>
+  </div>
+  <div class="row body">
+  <form action="process.jsp" method="post">
+      <ul>
+        
+        <li>
+          <p class="left">
+            <label for="first_name">first name</label>
+            <input type="text" name="first_name" placeholder="John" />
+          </p>
+     
+        </li>
+        
+        <li>
+          <p>
+            <label for="email">email <span class="req">*</span></label>
+            <input type="email" name="email" placeholder="john.smith@gmail.com" />
+          </p>
+        </li>        
+        <li><div class="divider"></div></li>
+        <li>
+          <label for="comments">Query</label>
+          <textarea cols="46" rows="3" name="query"></textarea>
+        </li>
+        
+        <li>
+          <input class="btn btn-submit" type="submit" value="Submit" />
+          <small>or press <strong>enter</strong></small>
+        </li>
+        
+      </ul>
+    </form>  
+  </div>
+</div>
+    </body>
+</html>
