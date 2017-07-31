@@ -40,34 +40,5 @@ out.println("<b>You are Successfully Created Csv file.</b>");
 } catch (Exception e) {
 e.printStackTrace();
 }
-/*String fName = "D:\\File.csv";
-   String thisLine; 
-  int count=0; 
-  FileInputStream fis = new FileInputStream(fName);
-  DataInputStream myInput = new DataInputStream(fis);
-while ((thisLine = myInput.readLine()) != null)
-{ count++; }
-out.print("hello");
-try{
-HSSFWorkbook wb = new HSSFWorkbook();
-HSSFSheet sheet = wb.createSheet("Excel Sheet");
-HSSFRow rowhead = sheet.createRow((short)0);
-rowhead.createCell((short) 0).setCellValue("First Name");
-rowhead.createCell((short) 1).setCellValue("Last Name");
-rowhead.createCell((short) 2).setCellValue("User Name");
 
-//HSSFWorkbook wb = new HSSFWorkbook();
-//SSFSheet sheet = wb.createSheet("Excel Sheet");
-out.print(count);
-HSSFRow row = sheet.createRow((short)1);
-row.createCell((short)0).setCellValue(value1);
-row.createCell((short)1).setCellValue(value2);
-row.createCell((short)2).setCellValue(value3);
-
-FileOutputStream fileOut = new FileOutputStream("D:\\File.csv",true);
-wb.write(fileOut);
-fileOut.close();
-out.println("Data is saved in excel file.");
-}catch ( Exception ex ){
-} */
 %>
